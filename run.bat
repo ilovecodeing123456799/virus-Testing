@@ -1,7 +1,7 @@
 @echo off
 start C:\Users\admin\Desktop\message.vbs
-reg add "HKEY_CURRENT_USER\control panel\desktop" /v wallpaper /t REG_SZ /d  C:\Users\admin\Desktop\t.jpg
-RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters
+Start C:\Users\admin\Desktop\t.jpg
+Start C:\Users/admin\Desktop\pop.vbs
 pause
 exit
 :Rookie
